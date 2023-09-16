@@ -6,6 +6,7 @@ import ArticlePage from './pages/ArticlePage';
 import ArticlesListPage from './pages/ArticlesListPage';
 import NavBar from './pages/NavBar';
 import NotFoundPage from './pages/NotFoundPage';
+import axios from 'axios';
 
 function App() {
   return (
@@ -27,3 +28,6 @@ function App() {
 }
 
 export default App;
+
+// const response = await axios.get('http://localhost:8000/api/articles/learn-react');
+// const data = response.data;
